@@ -17,6 +17,7 @@ namespace PortalAGR.Infrastructure.ContextosDeDados
             Conectar();
         }
 
+
         public void Conectar() => ConfigureConnections();
 
         private void ConfigureConnections()
