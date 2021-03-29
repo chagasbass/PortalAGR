@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contextos\Agentes\Repositories\Agentes\" />
+    <Folder Include="Contextos\Mods\" />
+    <Folder Include="Contextos\Exoticas\" />
+    <Folder Include="Contextos\SubTipos\" />
+    <Folder Include="Contextos\TipoEquipamentos\" />
+    <Folder Include="Contextos\Equipamentos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortalAGR.Shared\PortalAGR.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
